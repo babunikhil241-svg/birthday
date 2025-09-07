@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>d.martFront Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('C:/Users/NIKHIL  SINGH/OneDrive/Documents/WhatsApp Image 2025-07-10 at 16.04.27_435bab75.jpg');
+      background-size: cover;
+   
+       
+
+     
+    }
+    header {
+      background-color: #131921;
+      padding: 6px;
+      
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ff9900;
+    }
+    .search-bar input {
+      width: 400px;
+      padding: 8px;
+      border: none;
+    }
+    .search-bar button {
+      padding: 8px;
+      background-color: #febd69;
+      border: none;
+      cursor: pointer;
+      
+    }
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .product {
+      background: white;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+
+      
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      
+
+    }
+    .product h4 {
+      margin: 10px 0 5px;
+      
+     
+    }
+    .product p {
+      color: green;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #232f3e;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 260px;
+      
+    }
+    
+    
+    
+      
+    
+
+  </style>
+</head>
+<body>
+
+  <header>
+    
+  
+  
+  <style>
+    body {
+      background-color: #f9f9f9;
+      text-align: center;
+      padding-top: 7px;
+    }
+
+    .logo {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 42px;
+      font-weight: bold;
+      color: #0b7dda;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 24px;
+      border: 2px solid #0b7dda;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+        animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .logo:hover {
+      transform: scale(1.05);
+    }
+
+    .logo-icon {
+      font-size: 40px;
+      color: green;
+    }
+
+    .logo-text span {
+      color: green;
+    }
+    h1{
+      
+      background-color:rgb(232, 184, 27);
+      height: 90px;
+      width: 1400px;
+      text-align: center;
+      border-radius: 10px;
+      
+    }
+
+      
+      
+    
+    
+
+  </style>
+</head>
+<body>
+  
+  <div class="logo">
+    <div class="logo-icon">🛍️</div>
+    <div class="logo-text">D.<span>Mart</span></div>
+    
+  </div>
+  <h4>&#127969 Devtaha , Sukrauli, U.P<br>
+       Hata,Kushinager, Gorakhpur, U.P
+</h4>
+
+
+</head>
+<body>
+  
+  
+  
+    <div class="search-bar">
+    
+        <input list="D.Mart" name="D.Mart" placeholder="🔍search or ask a question..." autofocus>
+        <datalist id="D.Mart">
+            <option value="Mobile"></option>
+            <option value="Electroic gaget"></option>
+            <option value="Bed"></option>
+            <option value="Flower"></option>
+            <option value="Bluetooth"></option>
+            <option value="Cover"></option>
+            <option value="Bike"></option>
+            <option value="Iphone"></option>
+        </datalist>
+           
+      <button>Search</button>
+    </div>
+    <div class="nav-links">
+    <h3> <a href="sign.html">Sign In</a></h3>
+     <h3> <a href="account.html">Account</a></h3>
+    
+    </div>
+    
+    
+
+  </header>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Slide Sidebar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Sidebar style */
+    .sidebar {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color:white;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 40px;
+    }
+
+    .sidebar a {
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 18px;
+      color: rgb(27, 26, 26);
+      display: block;
+      transition: 0.3s;
+      
+    }
+
+    .sidebar a:hover {
+      background-color: #575757;
+    }
+
+    .openbtn {
+      font-size: 12px;
+      cursor: pointer;
+      background-color: #111;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+       position:relative;
+       
+      
+    
+    
+    }
+
+    .main {
+      transition: margin-left 0.5s;
+      padding: 20px;
+      left: 0%;
+    }
+
+     
+  
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      background-color: #6cc60b;
+      display: flex;
+      padding: 10px 20px;
+      align-items: center;
+      gap: 69px;;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    .navbar a:hover {
+      color: #ffd700;
+    }
+    .menu-icon {
+      font-size: 22px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .dropdown-arrow {
+      font-size: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <span class="menu-icon"><a href="#">☰</span></a>
+    <a href="#">All</a>
+    <a href="mu.html">MX Player</a>
+    <a href="#">Sell</a>
+    <a href="#">Bestsellers</a>
+    <a href="offers.html">Today's Deals</a>
+    <a href="electroic.html">Mobiles</a>
+    <a href="#">Prime <span class="dropdown-arrow">▼</span></a>
+    <a href="customer.html">Customer Service</a>
+    <a href="#">New Releases</a>
+  </div>
+
+</body>
+</html>
+
+
+    
+    
+      
+
+    
+  
+  </style>
+</head>
+<body>
+  
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" onclick="toggleSidebar()">🔙 Back</a>
+ <h3> <a href="amazon.html">🏛️Home</a></h3>
+   <h3><a href="account.html">🏦Your Account</a></h3>
+   <h3><a href="customer.html">🛠️Customer Services</a></h3>
+   <h3><a href="co.html">📱Contact</a></h3>
+  <h3>Shop by Category</h3><br>
+<p>Mobiles, Computers
+</p>
+<p>TV, Appliances, Electronics</p>
+<p>Men's Fashion</p>
+<p>Women's Fashion</p>
+ <h3><a href="sign.html">*️⃣sign</a></h3>
+ <h3><a href="lohout.html">⚙️logout</a></h3>
+
+</div>
+
+<div class="main">
+ <button class="openbtn" onclick="toggleSidebar()">☰  </button>
+  
+</div>
+
+<script>
+  function toggleSidebar() {
+    const sidebar = document.getElementById("mySidebar");
+    if (sidebar.style.width === "250px") {
+      sidebar.style.width = "0";
+    } else {
+      sidebar.style.width = "250px";
+    }
+  }
+  
+</script>
+
+</body>
+</html>
+
+  
+  
+
+ <div>
+
+<body>
+  <marquee behavior="scroll" direction="left" scrollamount="20" style="color:white; font-size:25px;">
+   <h1><a href="offers.html"style="text-decoration: none;">70%Off📱🎩⌚Today's Hot Deal!🧥🩳⚾ 70%Off</a></h1>
+   
+  </marquee>
+  
+
+
+  </div>
+  
+  <section class="products">
+    <div class="product">
+     <a href="blu.html"><img src="https://m.media-amazon.com/images/I/61kWB+uzR2L._AC_UY327_FMwebp_QL65_.jpg" alt="Product 1"/> 
+      <h4>Bluetooth Headphones</h4>
+      <p>₹1,499</p>
+      <p><a href="cart.html"style="text-decoration: none;">🛒Add Cart</a></p>
+    </div>
+    <div class="product">
+      <a href="mouse.html"><img src="https://m.media-amazon.com/images/I/61Mk3YqYHpL._AC_SL1500_.jpg" alt="Product 2" />
+      <h4>Wireless Mouse</h4>
+      <p>₹499</p>
+     <p><a href="cart.html"style="text-decoration: none;">🛒Add Cart</a></p>
+    </div>
+    <div class="product">
+      <a href="apple.html"><img src="https://m.media-amazon.com/images/I/71fVoqRC0wL._AC_UY327_FMwebp_QL65_.jpg" alt="Product 3" />
+      <h4>i.phone12</h4>
+      <p>39,999</p>
+       <p><a href="cart.html"style="text-decoration: none;">🛒Add Cart</a></p>
+    </div>
+      <div class="product">
+      <a href="samsumng.html"><img src="C:\Users\NIKHIL  SINGH\Downloads\OIP (4).jpeg" alt="Product 3" />
+      <h4>Samsung galaxy S25</h4>
+      <p>₹1,46,999</p>
+      <p><a href="cart.html"style="text-decoration: none;">🛒Add Cart</a></p>
+    </div>
+    <div class="product">
+     <a href="#"> <img src="C:\Users\NIKHIL  SINGH\Downloads\6c28ab24-80bb-4f1c-b62a-eff531f2b654.b68f4ec45f65a04af7255cafae8f4181.jpeg"alt="Product 3" />
+      <h4>Bed</h4>
+      <p>₹49,999</p>
+      <p><a href="cart.html"style="text-decoration: none;">🛒Add Cart</a></p>
+    </div>
+    <div class="product">
+     <a href="#"> <img src="C:\Users\NIKHIL  SINGH\Downloads\81zkRihn2fS._AC_UL960_QL65_.jpg" alt="Product 3" />
+      <h4>Artifical flower</h4>
+      <p>₹999</p>
+      <p><a href="cart.html"style="text-decoration: none;">🛒Add Cart</a></p>
+    </div>
+    
+      
+    <div class="product">
+      <img src="C:\Users\NIKHIL  SINGH\Downloads\81iS7d+LevL._SL1500_.jpg" />
+      <h4>Artifical flower</h4>
+      <p>₹4,999</p>
+      <p><a href="cart.html"style="text-decoration: none;">🛒Add Cart</a></p>
+    </div>
+    <div class="product">
+      <img src="C:\Users\NIKHIL  SINGH\Downloads\20211214062716_BMW.jpg" />
+      <h4>Artifical flower</h4>
+      <p>₹2,56,032</p>
+      <p><a href="cart.html"style="text-decoration: none;">🛒Add Cart</a></p>
+      
+      
+  </section>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-top: 1px solid #ccc;
+      background-color: #fff;
+      box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    }
+
+    .nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 12px;
+      color: gray;
+      text-decoration: none;
+    }
+
+    .nav-item i {
+      font-size: 20px;
+      margin-bottom: 4px;
+    }
+
+    .nav-item.active {
+      color: #007aff; /* iOS blue color */
+    }
+
+    .nav-item.active i {
+      color: #007aff;
+    }
+
+    .indicator-bar {
+      position: absolute;
+      bottom: 0;
+      height: 4px;
+      width: 100px;
+      background: gray;
+      border-radius: 2px;
+      margin-bottom: 56px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bottom-nav">
+    <a href="amazon.html" class="nav-item active">
+      <i class="fas fa-home"></i>
+      Home
+    </a>
+    <a href="file:///C:/Users/NIKHIL%20%20SINGH/OneDrive/Documents/Desktop/html/catega.html" class="nav-item">
+      <i class="fas fa-th"></i>
+      Categories
+    </a>
+    <a href="note.html" class="nav-item">
+      <i class="fas fa-bell"></i>
+      Notificati...
+    </a>
+    <a href="account.html" class="nav-item">
+      <i class="fas fa-user"></i>
+      Account
+    </a>
+    <a href="car2.html" class="nav-item">
+      <i class="fas fa-shopping-cart"></i>
+      Cart
+    </a>
+  </div>
+
+</body>
+
+    
+
+
+  <footer>
+    &copy; 2025 D.Mart Clone. 
+  </footer>
+
+</body>
+</html>
